@@ -1,0 +1,25 @@
+Response:
+{
+  "dialogAction": {
+    "slots": {
+      "AppointmentType": "whitening",
+      "Date": "2030-11-08",
+      "Time": "10:00"
+    },
+    "type": "Delegate"
+  },
+  "sessionAttributes": {
+    "formattedTime": "10:00 a.m.",
+    "bookingMap": "{\"2030-11-08\": [\"10:00\", \"16:00\", \"16:30\"]}"
+  }
+}
+
+Request ID:
+"f3db14ae-1050-11e9-a6b7-3562b0b2a1e0"
+
+Function Logs:
+START RequestId: f3db14ae-1050-11e9-a6b7-3562b0b2a1e0 Version: $LATEST
+[DEBUG]	2019-01-04T18:45:48.847Z	f3db14ae-1050-11e9-a6b7-3562b0b2a1e0	event.bot.name=MakeAppointment
+[DEBUG]	2019-01-04T18:45:48.848Z	f3db14ae-1050-11e9-a6b7-3562b0b2a1e0	dispatch userId=John, intentName=MakeAppointment
+END RequestId: f3db14ae-1050-11e9-a6b7-3562b0b2a1e0
+REPORT RequestId: f3db14ae-1050-11e9-a6b7-3562b0b2a1e0	Duration: 4.09 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 19 MB
