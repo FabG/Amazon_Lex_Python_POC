@@ -1,0 +1,33 @@
+Response:
+{
+"dialogAction": {
+"slots": {
+"PickUpDate": "2030-11-08",
+"PickUpCity": "Chicago",
+"ReturnDate": null,
+"CarType": "economy",
+"DriverAge": 21
+},
+"message": {
+"content": "Your return date must be after your pick up date.  Can you try a different return date?",
+"contentType": "PlainText"
+},
+"type": "ElicitSlot",
+"intentName": "BookCar",
+"slotToElicit": "ReturnDate"
+},
+"sessionAttributes": {
+"currentReservation": "{\"PickUpDate\": \"2030-11-08\", \"PickUpCity\": \"Chicago\", \"ReturnDate\": \"2030-11-08\", \"ReservationType\": \"Car\", \"CarType\": \"economy\"}",
+"currentReservationPrice": 0
+}
+}
+
+Request ID:
+"c7d6a711-1067-11e9-9bce-af49faa5699d"
+
+Function Logs:
+START RequestId: c7d6a711-1067-11e9-9bce-af49faa5699d Version: $LATEST
+[DEBUG]	2019-01-04T21:29:13.538Z	c7d6a711-1067-11e9-9bce-af49faa5699d	event.bot.name=BookTrip
+[DEBUG]	2019-01-04T21:29:13.538Z	c7d6a711-1067-11e9-9bce-af49faa5699d	dispatch userId=John, intentName=BookCar
+END RequestId: c7d6a711-1067-11e9-9bce-af49faa5699d
+REPORT RequestId: c7d6a711-1067-11e9-9bce-af49faa5699d	Duration: 18.12 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 19 MB

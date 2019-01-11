@@ -1,0 +1,27 @@
+Response:
+{
+"dialogAction": {
+"slots": {
+"PickUpDate": "2030-11-08",
+"PickUpCity": "Chicago",
+"ReturnDate": "2030-11-10",
+"CarType": "economy",
+"DriverAge": 21
+},
+"type": "Delegate"
+},
+"sessionAttributes": {
+"currentReservation": "{\"PickUpDate\": \"2030-11-08\", \"PickUpCity\": \"Chicago\", \"ReturnDate\": \"2030-11-10\", \"ReservationType\": \"Car\", \"CarType\": \"economy\"}",
+"currentReservationPrice": 278
+}
+}
+
+Request ID:
+"7bde7341-1068-11e9-9a1a-43aed1d4990b"
+
+Function Logs:
+START RequestId: 7bde7341-1068-11e9-9a1a-43aed1d4990b Version: $LATEST
+[DEBUG]	2019-01-04T21:34:15.251Z	7bde7341-1068-11e9-9a1a-43aed1d4990b	event.bot.name=BookTrip
+[DEBUG]	2019-01-04T21:34:15.251Z	7bde7341-1068-11e9-9a1a-43aed1d4990b	dispatch userId=John, intentName=BookCar
+END RequestId: 7bde7341-1068-11e9-9a1a-43aed1d4990b
+REPORT RequestId: 7bde7341-1068-11e9-9a1a-43aed1d4990b	Duration: 1.97 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 20 MB
