@@ -1,0 +1,17 @@
+{
+  "messageVersion": "1.0",
+  "invocationSource": "ManualFab",
+  "userId": "Fab",
+  "sessionAttributes": {},
+  "bot": {
+    "name": "AlertBot",
+    "alias": "$LATEST",
+    "version": "$LATEST"
+  },
+  "outputDialogMode": "Text",
+  "currentIntent": {
+    "slots": {
+      "AlertLevel": "Red"
+    }
+  }
+}
